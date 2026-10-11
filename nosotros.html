@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros — Tu Nombre Apellido</title>
+  <meta name="description" content="Conoce mi historia, formación académica y forma de trabajar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">RC</span>
+        <span class="brand-name">Russell Cardenas</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="primaryNav" class="primary-nav" aria-label="Principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html" aria-current="page" class="is-current">Sobre mi</a></li>
+          <li><a href="certificaciones.html">Certificaciones</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+          <li><a href="contacto.html" class="btn-nav">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <p class="eyebrow">Sobre mi</p>
+        <h1>Sobre mí</h1>
+        <p class="lede">Una persona curiosa que aprendió que la mejor forma de entender la tecnología es construyéndola.</p>
+      </div>
+    </section>
+
+    <section class="section about">
+      <div class="container about-grid">
+        <img class="portrait-frame small" src="fotos/foto.jpg">
+        <div class="about-text">
+          <h2>Mi historia</h2>
+          <p>Soy de Arequipa y me dedico al desarrollo web frontend. Empecé por curiosidad —queriendo entender cómo funcionaba una página— y terminé encontrando una profesión donde el diseño y la lógica se encuentran.</p>
+          <p>Hoy estudio y practico a diario: desde maquetar con HTML y CSS hasta añadir interactividad con JavaScript. Me importa que lo que construyo sea comprensible para quien lo usa y fácil de mantener para quien lo hereda.</p>
+          <p>Busco mi primera oportunidad profesional para crecer dentro de un equipo, aportar con disciplina y seguir aprendiendo de personas con más experiencia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section values">
+      <div class="container">
+        <h2>Cómo trabajo</h2>
+        <div class="cards-grid">
+          <article class="card"><h3>Claridad</h3><p>Prefiero una solución simple y bien explicada a una complicada que nadie entiende.</p></article>
+          <article class="card"><h3>Constancia</h3><p>Practico todos los días. El avance pequeño y sostenido supera al esfuerzo ocasional.</p></article>
+          <article class="card"><h3>Responsabilidad</h3><p>Cumplo plazos, aviso a tiempo si algo se complica y asumo mis errores.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="container">
+        <h2>Formación académica</h2>
+        <ol class="timeline">
+          <li>
+            <span class="when">2025 — Actualidad</span>
+            <h3>Frontend Developer Web</h3>
+            <p class="where">SENATI · Tecnologías de la Información</p>
+            <p>HTML5, CSS3, JavaScript, Bootstrap, UX/UI y desarrollo de interfaces responsivas.</p>
+          </li>
+          <li>
+            <span class="when">2018 — 2023</span>
+            <h3>Educación secundaria</h3>
+            <p class="where">Juan Pablo Vizcardo y Guzman</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section langs">
+      <div class="container">
+        <h2>Idiomas y habilidades blandas</h2>
+        <ul class="chips">
+          <li>Español — nativo</li><li>Inglés — básico</li>
+          <li>Trabajo en equipo</li><li>Comunicación</li><li>Resolución de problemas</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <span class="brand-name light">Russell Cardenas</span>
+        <p>Desarrollador frontend junior. Disponible para prácticas, proyectos freelance y colaboraciones.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Sobre mi</a></li>
+          <li><a href="certificaciones.html">Certificaciones</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="mailto:tu.correo@ejemplo.com">correo@ejemplo.com</a></li>
+          <li><a href="tel:+51999999999">+51 999 999 999</a></li>
+          <li>Arequipa, Perú</li>
+          <li><a href="#" aria-label="LinkedIn">LinkedIn</a> · <a href="#" aria-label="GitHub">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">© <span id="year">2026</span> Russell Cardenas. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
